@@ -1,0 +1,30 @@
+*.class
+*.jar
+*.war
+*.ear
+*.stackdump
+
+
+# Target Directory
+/target/
+/*/target/
+
+### Project files
+# Eclipse
+.classpath
+.project
+.springBeans
+.settings/
+.metadata/
+/*/.metadata/
+.externalToolBuilders/
+.factorypath
+
+# InteliJ
+*.iml
+.editorconfig
+.idea
+
+# Misc developer specific files:
+
+
