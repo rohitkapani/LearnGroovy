@@ -3,12 +3,12 @@ package scripts
 import importPack.ReadyMethod as RM
 
 
-def method(parameter) {
-	println "sum="+parameter
+def display(parameter) {
+	println "Sum of entered data is : $parameter"
 }
 
-sum=RM.sum(2, 3)
+def sum=RM.sum(2, 3)
 
-method(sum)
+display(sum)
 
 
